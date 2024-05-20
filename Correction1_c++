@@ -1,0 +1,36 @@
+/*
+ * Correction1.cpp
+ *
+ *  Created on: May 19, 2024
+ *      Author: Jesus Borunda
+ */
+
+/* Simple Program with a few Errors for Correction
+   Please be sure to correct all outlined errors.
+   */
+
+
+#include<iostream>
+/*
+#include<conio.h> //this is not needed because it's not a standard library in c++.
+*/
+//Standard namespace declaration
+using namespace std; //this looks good
+
+//Main Function
+int main() //this looks good too
+{
+
+     //Standard Ouput Statement //everything looks good here as well
+     cout<<"Welcome to this C++ Program"<<endl;
+
+    //I added quotes to close the string
+     cout<<"I have corrected all errors for this program." <<endl;
+
+     // Wait For Output Screen
+    cin.get();
+
+     //Main Function return Statement  ////////adding a return of "0"
+    return 0;
+}
+
